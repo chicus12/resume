@@ -2,11 +2,11 @@
   "basics": {
     "name": "Francisco Cerdas Ureña",
     "label": "Web Developer",
-    "picture": "",
+    "picture": "https://portrait-personal.s3.amazonaws.com/profile.jpg",
     "email": "chicus12@gmail.com",
     "phone": "(+506) 8714-0634",
     "website": "https://github.com/chicus12",
-    "summary": "I'm a experienced developer, operating on the entire software life cycle, from conception to a product release working with multiples programming languages. Currently, in love with NodeJS and all the Javascript World (FrontEnd & BackEnd). I like exploring other languages and approaches, so, I spend some time playing with Python, Arduino and Elixir/Erlang. I like the collaborative environments, test driven development, teamwork and modern software patterns. You can check my Github profile where you can find my personal projects.",
+    "summary": "I'm a experienced developer, operating on the entire software life cycle, from conception to a product release working with multiples programming languages. Currently, in love with NodeJS and all the Javascript World (FrontEnd with React.js & BackEnd). I like exploring other languages and approaches, so, I spend some time playing with Go, Python, Arduino and Elixir/Erlang. I like the collaborative environments, test driven development, teamwork and modern software patterns. You can check my Github profile where you can find my personal projects.",
     "profiles": [
       {
         "network": "Twitter",
@@ -31,12 +31,109 @@
       "position": "Full Stack Developer",
       "website": "http://www.soin.co.cr",
       "startDate": "2011-05-15",
-      "summary": "SOIN its an IT company with national prestige, it also has offices in other countries like Spain, Mexico, El Salvador due to its excellent technological solutions. Part of my work at SOIN involves:",
-      "highlights": [
-        "Develop modules and bug fixes for the SIF, an ERP solution used by Televisa, Bimbo, P.M.I PEMEX and goverment institutions in Costa Rica.",
-        "Design, develop and maintain QueComemos, the biggest food delivery service in Costa Rica, for iOS, Android and Web.",
-        "Design, develop and maintain Receta Digital, a web app to control prescriptions, drugs and pharmacies in Costa Rica.",
-        "Design, develop and maintain Tapp, the biggest loyalty service and app in Costa Rica."
+      "summary": "SOIN its an IT company with national prestige, it also has offices in other countries like Spain, Mexico, El Salvador due to its excellent technological solutions.",
+      "highlights": ["test"],
+      "positions": [
+        {
+          "title": "Software Developer",
+          "startDate": "2019-12",
+          "summary": "I'm currently working as part of web development team that is building several apps for government institutions in Costa Rica, just like Dirección General de Migración y Extranjería, Servicio Fitosanitario del Estado and Crearempresa.go.cr.",
+          "highlights": [
+            "Frontend Developer",
+            "React Dedeveloper",
+            "Developers support",
+            "Code Reviewer"
+          ]
+        },
+        {
+          "title": "Software Developer - Fan-Fam App",
+          "startDate": "2019-10",
+          "endDate": "2019-12",
+          "summary": "Fan-Fam it's a app for music bands suscriptions, where the fans can buy music and merchandise of bands. Work in progress, not released yet.",
+          "highlights": [
+            "RESTs API designer",
+            "Serverless NodeJS Developer",
+            "AWS Lambda",
+            "React Dedeveloper"
+          ]
+        },
+        {
+          "title": "Software Developer / Web Engineer Lead - TSA App",
+          "startDate": "2019-01",
+          "endDate": "2019-10",
+          "summary": "TSA is the acronym of Registration of Early Summary Transmission and risk management. TSA is a web application for customs risk management base in the data model of the WCO (Worl Customs Organization).",
+          "highlights": [
+            "Project scaffold creator",
+            "RESTs API designer",
+            "Code Reviewer",
+            "Release Manager",
+            "NodeJS Developer",
+            "React Dedeveloper"
+          ]
+        },
+        {
+          "title": "Software Developer - React Form Converter",
+          "startDate": "2018-10",
+          "endDate": "2019-01",
+          "summary": "It's a simple tool to convert simple HTML form to React Forms",
+          "highlights": [
+            "Architectural design of the application",
+            "NodeJS Developer",
+            "React Dedeveloper"
+          ]
+        },
+        {
+          "title": "Software Developer / Web Engineer Lead - Tapp App",
+          "startDate": "2015-04",
+          "endDate": "2018-10",
+          "summary": "TAPP is an app where you have all your favorite frequent customer cards. You earn points for your purchases and you can redeem them for prizes or use them as redeemable money to buy products in stores. The biggest loyalty service in Costa Rica with thousands of daily users.",
+          "highlights": [
+            "Architectural design of the application",
+            "Lead the web development team",
+            "RESTs API",
+            "Restaurant POS Integration Manager",
+            "Code Reviewer",
+            "Release Manager",
+            "NodeJs Developer",
+            "BackboneJs as frontend"
+          ]
+        },
+        {
+          "title": "Software Developer / Web Engineer Lead - Digital Rx",
+          "startDate": "2014-02",
+          "endDate": "2015-04",
+          "summary": "It's a platform used by the Costa Rica Health Ministry to manage and control the prescription, marketing and dispatch of psychotropic and narcotic drugs. Digital Rx allows to integrate the information that is generated as a result of these processes, which allows to Health Ministry to carry out an adequate administration of psychotropic and narcotic drugs in our country.",
+          "highlights": [
+            "Architectural design of the application",
+            "Work directly with the product owner to establish milestones and deadlines of the developments",
+            "Lead the web development team",
+            "Coldfusion Developer",
+            "Jquery + HTML as frontend"
+          ]
+        },
+        {
+          "title": "Software Developer - Quecomemos App",
+          "startDate": "2013-01",
+          "endDate": "2014-02",
+          "summary": "Quecomemos was the first app for order food from principal food chains in Costa Rica. Used by thousands of users, was the biggest food delivery app.",
+          "highlights": [
+            "Fullstack Developer",
+            "Part of the architectural designer of the app",
+            "Coldfusion Developer",
+            "Jquery + HTML as frontend"
+          ]
+        },
+        {
+          "title": "Software Developer - ERP Software",
+          "startDate": "2011-05",
+          "endDate": "2013-01",
+          "summary": "Enterprise Resource Planning Web Application used by Televisa, Bimbo, P.M.I PEMEX and goverment institutions in Costa Rica.",
+          "highlights": [
+            "Fullstack Developer",
+            "Coldfusion Developer",
+            "Jquery + HTML as frontend"
+          ]
+        }
       ]
     }
   ],
@@ -45,8 +142,8 @@
       "organization": "SOIN University",
       "position": "Teacher",
       "website": "http://www.soin.co.cr",
-      "startDate": "2015-05-20",
-      "endDate": "2015-06-24",
+      "startDate": "2017-05-20",
+      "endDate": "2017-06-24",
       "summary": "NodeJS Professional Course.",
       "highlights": [
         "NodeJS basics",
@@ -64,53 +161,58 @@
   "education": [
     {
       "institution": "University of Costa Rica",
-      "area": "Business Informatics",
-      "studyType": "Bachelor",
+      "area": "Business Computing",
+      "studyType": "Bachelor Degree",
       "startDate": "2007-01-01",
       "endDate": "2010-12-01",
       "gpa": "4.0",
-      "courses": [
-        "Scrum Alliance - Scrum Master - License 000339588",
-        "Veritas University - Introduction to Arduino",
-        "MongoDB, Inc. - M101JS: MongoDB for Node.js Developers",
-        "Platzi - FrontEnd Professional Course",
-        "Platzi - NodeJS Professional Course",
-        "Platzi - Docker",
-        "Platzi - Angular Course",
-        "Platzi - React Course"
-      ]
+      "courses": []
+    },
+    {
+      "institution": "Scrum Alliance",
+      "area": "Scrum",
+      "studyType": "Scrum Master",
+      "startDate": "2014-06-01",
+      "endDate": "2014-06-30",
+      "gpa": "4.0",
+      "courses": ["Scrum Master - License 000339588"]
+    },
+    {
+      "institution": "Veritas University",
+      "area": "Introduction to Arduino",
+      "studyType": "Course",
+      "startDate": "2017-06-01",
+      "endDate": "2017-06-30",
+      "courses": ["Arduino 101"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Most inovative Product of 2016",
+      "date": "2016-01-01",
+      "awarder": "Chamber of Commerce",
+      "summary": "Tapp"
     }
   ],
   "skills": [
     {
       "name": "Web Development",
-      "level": "Master",
+      "level": "High",
       "keywords": [
         "HTML5",
-        "CSS3",
         "Javascript",
-        "Python",
         "NodeJS",
+        "React",
         "Angular",
-        "React/Flux"
-      ]
-    },
-    {
-      "name": "DevOps",
-      "level": "Low",
-      "keywords": [
-        "Docker",
-        "AWS Amazon Web Services",
-        "Digital Ocean",
-        "Vagrant",
-        "Ansible",
-        "NGINX",
-        "UNIX terminal"
+        "Webpack",
+        "Babel",
+        "Serverless",
+        "Lambda"
       ]
     },
     {
       "name": "Data Bases",
-      "level": "Master",
+      "level": "High",
       "keywords": [
         "MySQL",
         "PostgreSQL",
@@ -122,11 +224,25 @@
     },
     {
       "name": "Development Methodologies",
-      "level": "Master",
+      "level": "High",
       "keywords": [
         "Passion Driven Development",
         "Test Driven Development",
         "Scrum Master"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Medium",
+      "keywords": [
+        "NGINX",
+        "Docker",
+        "Container",
+        "AWS Amazon Web Services",
+        "Digital Ocean",
+        "Vagrant",
+        "Ansible",
+        "UNIX terminal"
       ]
     }
   ],
@@ -143,23 +259,24 @@
   "interests": [
     {
       "name": "Arts and Culture",
-      "keywords": [
-        "Photography",
-        "Literature"
-      ]
+      "keywords": ["Photography", "Literature"]
     },
     {
       "name": "Education",
-      "keywords": [
-        "Teaching",
-        "Teamwork"
-      ]
+      "keywords": ["Teaching", "Teamwork"]
     }
   ],
   "references": [
     {
       "name": "Heriberto Ureña (burenam17@gmail.com) - coworkers at SOIN",
       "reference": "It's my pleasure to recommend Francisco, we work together at SOIN and he proved that he will be a valuable professional to any company as web developer."
+    },
+    {
+      "name": "Tomás González Castetbon - coworkers at SOIN",
+      "reference": "I have worked with Francisco in several projects in the same company and I can say his seniority is highly-felt; one of the most committed & responsible person/teammate I have had the pleasure to work with. When it comes down to reviews/plannings, Francisco's input and ideas always tend to shine and are highly taken in consideration for the projects on focus."
     }
-  ]
+  ],
+  "meta": {
+    "theme": "kendall"
+  }
 }

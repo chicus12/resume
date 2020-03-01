@@ -1,0 +1,21 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:chicus12/resume.git",
+  "author": "Francisco Cerdas <chicus12@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "export:pdf": "resume export resume.pdf",
+    "export:html": "resume export resume.html",
+    "serve": "resume serve --theme kendall"
+  },
+  "devDependencies": {
+    "resume-cli": "^1.2.7"
+  },
+  "dependencies": {
+    "gravatar": "^1.8.0",
+    "lodash": "^4.17.15",
+    "mustache": "^4.0.0"
+  }
+}

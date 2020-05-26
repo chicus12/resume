@@ -8,7 +8,7 @@
   "scripts": {
     "export:pdf": "resume export resume.pdf",
     "export:html": "resume export resume.html",
-    "serve": "resume serve --theme kendall"
+    "serve": "resume serve --theme paper"
   },
   "devDependencies": {
     "resume-cli": "^1.2.7"

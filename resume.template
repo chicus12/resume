@@ -1,308 +1,356 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Resume of {{basics.name}}</title>
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <style type="text/css">
-    {{{css}}}
-    </style>
-    <style type="text/css" media="print">
-    {{{printcss}}}
-    </style>
-  </head>
-  <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12">
-          <div id="photo-header" class="text-center">
-            <!-- PHOTO (AVATAR) -->
-            {{#photo}}
-            <div id="photo">
-              <img src="{{photo}}" alt="avatar">
-            </div>
-            {{/photo}}
-            <div id="text-header" {{^photo}}style="margin-top: 90px;"{{/photo}}>
-              <h1>{{basics.name}}<br>{{#basics.label}}<span>{{basics.label}}</span>{{/basics.label}}</h1>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, minimal-ui">
+  <title>{{#resume.basics}}{{name}}{{/resume.basics}}</title>
+  <link href='//fonts.googleapis.com/css?family=Merriweather:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
+  <style>{{{css}}}</style>
+  <style media="print">{{{print}}}</style>
+</head>
+<body>
+  <div class="resume-wrapper">
+    <article class="paper">
+      {{#resume.basics}}
+        <header>
+          <div class="header-content">
+            {{#if picture}}
+              <div class="header-pic">
+                <img src="{{picture}}" class="pic" />
+              </div>
+            {{/if}}
+            <div class="header-text">
+              <p>
+                {{name}}
+              </p>
+              <p class="subtitle">{{label}}</p>
             </div>
           </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-xs-12 col-sm-7">
-          {{#basics.summary}}
-          <!-- ABOUT ME -->
-          <div class="box">
-            <h2><i class="fa fa-user ico"></i> About</h2>
-            <p>{{{basics.summary}}}</p>
-          </div>
-          {{/basics.summary}}
-          {{#workBool}}
-          <!-- WORK EXPERIENCE -->
-          <div class="box">
-            <h2><i class= "fa fa-suitcase ico"></i> Work Experience</h2>
-            {{#work}}
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">{{company}}</div>
-                    {{#website}}
-                    <div class="address">
-                      <a href="{{website}}" target= "_blank"><i class="fa fa-globe ico"></i> {{website}}</a>
-                    </div>
-                    {{/website}}
-                    {{#summary}}
-                    <p>
-                    {{summary}}
-                    </p>
-                    {{/summary}}
-                    <div class="year">{{startDateMonth}}{{startDateYear}} – {{endDateMonth}}{{endDateYear}}</div>
-                  </div>
-                </div>
-
-                {{#positions}}
-                  <div class="row">
-                    <div class="job-details col-xs-11">
-                      <div class="profession">{{title}}</div>
-                      <div class="year">
-                      {{startDateMonth}}{{startDateYear}} – {{endDateMonth}}{{endDateYear}}</div>
-                      <div class="description">
-                        {{{summary}}}
-                        {{#boolHighlights}}
-                        <div class="highlights">Highlights</div>
-                        <ul class="list-group">
-                          {{#highlights}}
-                          <li class="list-group-item">{{{.}}}</li>
-                          {{/highlights}}
-                        </ul>
-                        {{/boolHighlights}}
-                      </div>
-                    </div>
-                  </div>
-                {{/positions}}
-              </div>
-            {{/work}}
-          </div>
-          {{/workBool}}
-          {{#awardsBool}}
-          <!-- AWARDS -->
-          <div class="box">
-            <h2><i class="fa fa-certificate ico"></i> Awards</h2>
-            <ul id="awards" class="clearfix">
-              {{#awards}}
-              <li>
-                <div class="year pull-left">{{month}} {{year}}</div>
-                <div class="description pull-right">
-                  <h3>{{awarder}}</h3>
-                  <p><i class="fa fa-trophy ico"></i> {{title}}</p>
-                  <p>{{{summary}}}</p>
-                </div>
-              </li>
-              {{/awards}}
-            </ul>
-          </div>
-          {{/awardsBool}}
-          {{#volunteerBool}}
-          <!-- VOLUNTEER -->
-          <div class="box">
-            <h2><i class= "fa fa-group ico"></i> Volunteer</h2>
-            {{#volunteer}}
-              <div class="job clearfix">
-                <div class="row">
-                  <div class="details">
-                    <div class="where">{{organization}}</div>
-                    {{#website}}
-                    <div class="address">
-                      <a href="{{website}}" target= "_blank"><i class="fa fa-globe ico"></i> {{website}}</a>
-                    </div>
-                    {{/website}}
-                    <div class="year">{{startDateMonth}}{{startDateYear}} – {{endDateMonth}}{{endDateYear}}</div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-xs-11 pull-right">
-                    <div class="profession">{{position}}</div>
-                    <div class="description">
-                      {{{summary}}}
-                      {{#boolHighlights}}
-                      <div class="highlights">Highlights</div>
-                      <ul class="list-group">
-                        {{#highlights}}
-                        <li class="list-group-item">{{{.}}}</li>
-                        {{/highlights}}
-                      </ul>
-                      {{/boolHighlights}}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            {{/volunteer}}
-          </div>
-          {{/volunteerBool}}
-        </div>
-        <div class="col-xs-12 col-sm-5">
+        </header>
+        <div class="content-wrapper">
           <!-- CONTACT -->
-          <div class="box clearfix">
-            <h2><i class="fa fa-bullseye ico"></i> Contact</h2>
-            {{#basics.location}}
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-map-marker fa-fw"></span></div>
-              {{#basics.location.address}}<div class="title pull-right">{{basics.location.address}}</div>{{/basics.location.address}}
-              <div class="title {{^basics.location.address}}only {{/basics.location.address}} pull-right">{{basics.location.city}}{{#basics.location.region}}, {{basics.location.region}}{{/basics.location.region}}{{#basics.location.postalCode}} {{basics.location.postalCode}}{{/basics.location.postalCode}}{{#basics.location.countryCode}} {{basics.location.countryCode}}{{/basics.location.countryCode}}</div>
+          <section class="content">
+            <div class="row">
+              <div class="content-cat">
+                Contacto
+              </div>
+              <div class="content-text">
+                {{#if website}}
+                  <ul>
+                    <li>Website</li>
+                    <li>{{website}}</li>
+                  </ul>
+                {{/if}}
+                {{#if email}}
+                  <ul>
+                    <li>Correo electrónico</li>
+                    <li>{{email}}</li>
+                  </ul>
+                {{/if}}
+                {{#if phone}}
+                  <ul>
+                    <li>Teléfono</li>
+                    <li>{{phone}}</li>
+                  </ul>
+                {{/if}}
+              </div>
             </div>
-            {{/basics.location}}
-            {{#basics.phone}}
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-phone fa-fw"></span></div>
-              <div class="title only pull-right">{{basics.phone}}</div>
-            </div>
-            {{/basics.phone}}
-            {{#basics.email}}
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-envelope fa-fw"></span></div>
-              <div class="title only pull-right"><a href="mailto:{{basics.email}}" target="_blank">{{basics.email}}</a></div>
-            </div>
-            {{/basics.email}}
-            {{#basics.website}}
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="fa fa-globe fa-fw"></span></div>
-              <div class="title only pull-right"><a href="{{basics.website}}" target="_blank">{{basics.website}}</a></div>
-            </div>
-            {{/basics.website}}
-            {{#basics.profiles}}
-            <div class="contact-item">
-              <div class="icon pull-left text-center"><span class="{{iconClass}} fa-fw"></span></div>
-              <div class="title pull-right">{{network}}</div>
-              <div class="description pull-right"><a href="{{url}}" target="_blank">{{#username}}{{username}}{{/username}}{{^username}}{{url}}{{/username}}</a></div>
-            </div>
-            {{/basics.profiles}}
-          </div>
-          {{#educationBool}}
-          <!-- EDUCATION -->
-          <div class="box">
-            <h2><i class="fa fa-university ico"></i> Education</h2>
-            <ul id="education" class="clearfix">
-              {{#education}}
-              <li>
-                <div class="year pull-left">{{startDateYear}} {{endDateYear}}</div>
-                <div class="description pull-right">
-                  <h3>{{institution}}</h3>
-                  {{#studyType}}<p><i class= "fa fa-graduation-cap ico"></i> {{studyType}}</p>{{/studyType}}
-                  <p>{{area}}</p>
-                  {{#gpa}}
-                  <p>
-                    GPA: {{gpa}}
-                  </p>
-                  {{/gpa}}
-                  {{#educationCourses}}
-                    <div>Courses</div>
-                    <ul class="list-group">
-                      {{#courses}}
-                      <li class="list-group-item">{{{.}}}</li>
-                      {{/courses}}
-                    </ul>
-                  {{/educationCourses}}
+          </section>
+          <!-- LOCATION -->
+          {{#location}}
+            {{#ifCond address '||' city}}
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat">
+                    Location
+                  </div>
+                  <div class="content-text">
+                    {{#if address}}
+                      <ul>
+                        <li>Address</li>
+                        <li>{{address}}</li>
+                      </ul>
+                    {{/if}}
+                    {{#if city}}
+                      {{#if postalCode}}
+                        <ul>
+                          <li>Postal Code & City</li>
+                          <li>{{postalCode}} {{city}}</li>
+                        </ul>
+                      {{/if}}
+                    {{/if}}
+                    {{#if region}}
+                      <ul>
+                        <li>Region</li>
+                        <li>{{region}}</li>
+                      </ul>
+                    {{/if}}
+                  </div>
                 </div>
-              </li>
-              {{/education}}
-            </ul>
-          </div>
-          {{/educationBool}}
-          {{#skillsBool}}
-          <!-- SKILLS -->
-          <div class="box">
-            <h2><i class="fa fa-tasks ico"></i> Skills</h2>
-            {{#skills}}
-            <div class="skills clearfix">
-              <div class="item-skills">
-                  {{name}}
-                  {{#level}}<span class="skill-level">{{level}}</span>{{/level}}
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                {{#keywords}}
-                <span class= "skill badge">{{{.}}}</span>
-                {{/keywords}}
-              </div>
-            </div>
-            {{/skills}}
-          </div>
-          {{/skillsBool}}
-          {{#publicationsBool}}
-          <!-- PUBLICATIONS -->
-          <div class="box">
-            <h2><i class="fa fa-book ico"></i> Publications</h2>
-            {{#publications}}
-            <div class="publication panel panel-default">
-              <div class="panel-heading">
-                <div class="name panel-title">{{name}}</div>
-              </div>
-              <div class="panel-body">
-                {{#publisher}}
-                <div class="publisher"><i class= "fa fa-bookmark ico"></i> {{publisher}}</div>
-                {{/publisher}}
-                <div class="year">{{day}} {{month}} {{year}}</div>
-                {{#website}}
-                <div class="address">
-                  <a href="{{website}}" target= "_blank"><i class="fa fa-globe ico"></i> {{website}}</a>
-                </div>
-                {{/website}}
-                {{#summary}}
-                <p>{{{summary}}}</p>
-                {{/summary}}
-              </div>
-            </div>
-            {{/publications}}
-          </div>
-          {{/publicationsBool}}
-          {{#languagesBool}}
-          <!-- LANGUAGES -->
-          <div class="box">
-            <h2><i class="fa fa-language ico"></i> Languages</h2>
-            <ul class="list-group">
-              {{#languages}}
-              <li class=" list-group-item">{{language}}<span class="skill badge pull-right">{{fluency}}</span></li>
-              {{/languages}}
-            </ul>
-          </div>
-          {{/languagesBool}}
-          {{#interestsBool}}
-          <!-- HOBBIES -->
-          <div class="box">
-            <h2><i class="fa fa-heart ico"></i> Interests</h2>
-            {{#interests}}
-            <div class="interests clearfix">
-              <div class="item-interests">
-                  {{name}}
-              </div>
-              <div class="col-sm-offset-1 col-sm-12 clearfix">
-                {{#keywords}}
-                <span class= "interest badge">{{{.}}}</span>
-                {{/keywords}}
-              </div>
-            </div>
-            {{/interests}}
-          </div>
-          {{/interestsBool}}
-          {{#referencesBool}}
-          <div class="box">
-            <h2><i class= "fa fa-check-square ico"></i> References</h2>
-            {{#references}}
-            <blockquote>
-              <div>{{{reference}}}</div>
-              <footer>
-                <a href="{{website}}" target= "_blank">{{name}}</a>
-              </footer>
-            </blockquote><br>
-            {{/references}}
-          </div>
-          {{/referencesBool}}
-        </div>
-      </div>
-    </div>
+              </section>
+            {{/ifCond}}
+          {{/location}}
+      {{/resume.basics}}
 
-  </body>
+          {{#if resume.work.length}}
+            {{#foreach resume.work}}
+              {{#if $first}}
+                <section class="content">
+              {{else}}
+                <section class="content work-content">
+              {{/if}}
+                  <div class="row">
+                    <div class="content-cat big-text">
+                      {{#if $first}}
+                        Experiencia Laboral
+                      {{/if}}
+                      {{#if startDate}}
+                        {{#if endDate}}
+                          <p>{{startDate}} hasta el {{endDate}}</p>
+                        {{else}}
+                          <p>{{startDate}} hasta el día de hoy</p>
+                        {{/if}}
+                      {{/if}}
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                      {{#ifCond company '||' position}}
+                        {{#if $first}}
+                          <p style="margin-top:2.4em;">
+                        {{else}}
+                          <p>
+                        {{/if}}
+                        {{#ifCond website '&&' company}}
+                          <strong>{{position}}</strong>
+                        en <strong><a href="{{website}}">{{company}}:</a></strong>
+                        {{else}}
+                          {{#if company.length}}
+                            <strong>{{position}}</strong>
+                            en <strong>{{company}}:</strong>
+                          {{else}}
+                            <strong>{{position}}:</strong>
+                          {{/if}}
+                        {{/ifCond}}
+                        </p>
+                      {{/ifCond}}
+                      {{#if summary}}
+                        <p>{{summary}}</p>
+                      {{/if}}
+                      {{#if highlights.length}}
+                        {{#each highlights}}
+                          <p class="highlight">{{.}}</p>
+                        {{/each}}
+                      {{/if}}
+                    </div>
+                  </div>
+                </section>
+            {{/foreach}}
+          {{/if}}
+
+          {{#if resume.volunteer.length}}
+            {{#each resume.volunteer}}
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                    {{#if organization}}
+                      {{organization}}
+                    {{/if}}
+                    {{#if startDate}}
+                      {{#if endDate}}
+                        <p>{{startDate}} till {{endDate}}</p>
+                      {{/if}}
+                    {{/if}}
+                  </div>
+                  <div class="content-text work-listing">
+                    {{#if summary}}
+                      <p>
+                        {{summary}}
+                      </p>
+                    {{/if}}
+                    {{#if highlights.length}}
+                      {{#each highlights}}
+                        <p class="highlight">{{.}}</p>
+                      {{/each}}
+                    {{/if}}
+                  </div>
+                </div>
+              </section>
+            {{/each}}
+          {{/if}}
+
+          {{#if resume.education.length}}
+            {{#foreach resume.education}}
+              {{#if $first}}
+                <section class="content">
+              {{else}}
+                <section class="content education-content">
+              {{/if}}
+                  <div class="row">
+                    <div class="content-cat big-text">
+                      {{#if $first}}
+                        Educación
+                      {{/if}}
+                      {{#if startDate}}
+                        {{#if endDate}}
+                          <p>{{startDate}} hasta el {{endDate}}</p>
+                        {{/if}}
+                      {{/if}}
+                    </div>
+                    <div class="content-text work-listing education-listing">
+                      {{#if institution}}
+                        {{#if $first}}
+                          <p class="heading" style="margin-top:2.35em;">{{institution}}</p>
+                        {{else}}
+                          <p class="heading">{{institution}}</p>
+                        {{/if}}
+                      {{/if}}
+                      {{#if area}}
+                        <p class="highlight">
+                          {{#if studyType}}
+                          {{studyType}}:
+                          {{/if}}
+                          <i>{{area}} {{#if gpa}}({{gpa}}){{/if}}</i>
+                        </p>
+                      {{/if}}
+                    </div>
+                  </div>
+                </section>
+            {{/foreach}}
+          {{/if}}
+
+          {{#if resume.awards.length}}
+            {{#foreach resume.awards}}
+              <section class="content">
+                <div class="row">
+                  <div class="content-cat big-text">
+                    {{#if $first}}
+                      Recomendaciones
+                    {{/if}}
+                    {{#if title}}
+                      <p>{{title}}</p>
+                    {{/if}}
+                    {{#if date}}
+                      <p style="margin-top:0.25em;">{{date}}</p>
+                    {{/if}}
+                  </div>
+                  <div class="content-text work-listing">
+                    {{#if awarder}}
+                      <strong><p class="heading">{{awarder}}</p></strong>
+                    {{/if}}
+                    {{#if summary}}
+                      <p class="highlight">{{summary}}</p>
+                    {{/if}}
+                  </div>
+                </div>
+              </section>
+            {{/foreach}}
+          {{/if}}
+
+          {{#if resume.skills.length}}
+          <section class="content">
+            <div class="row">
+              <div class="content-cat">
+                Skills
+              </div>
+              <div class="content-text skills-listing">
+                {{#foreach resume.skills}}
+                  <p>
+                    <span class="name">
+                      {{#if name}}
+                        <strong>
+                          {{name}}{{#if level}}{{else}}:{{/if}}
+                        </strong>
+                      {{/if}}
+                    </span>
+                    {{#if level}}
+                      <span>({{level}}):</span>
+                    {{/if}}
+                    {{#if keywords.length}}
+                      {{#commalist keywords}}{{.}}{{/commalist}}
+                    {{/if}}
+                  </p>
+                {{/foreach}}
+              </div>
+            </div>
+          </section>
+          {{/if}}
+
+  <!-- LANGUAGE -->
+          {{#if resume.languages.length}}
+            <section class="content">
+              <div class="row">
+                <div class="content-cat">
+                  Idiomas
+                </div>
+                <div class="content-text">
+                  {{#each resume.languages}}
+                    <ul>
+                      {{#if language}}
+                        <li>{{language}}</li>
+                      {{/if}}
+                      {{#if fluency}}
+                        <li>{{fluency}}</li>
+                      {{/if}}
+                    </ul>
+                  {{/each}}
+                </div>
+              </div>
+            </section>
+          {{/if}}
+          {{#resume.basics}}
+            <!-- PROFILES -->
+            {{#if profiles.length}}
+              <section class="content profiles">
+                <div class="row">
+                  <div class="content-cat">
+                    Perfiles
+                  </div>
+                  <div class="content-text profiles-listing">
+                    <ul>
+                      {{#each profiles}}
+                        {{#if network}}
+                          <li>
+                            <a href="{{url}}" target="_blank">
+                              {{network}}
+                            </a>
+                          </li>
+                        {{/if}}
+                      {{/each}}
+                    </ul>
+                  </div>
+                </div>
+              </section>
+            {{/if}}
+          {{/resume.basics}}
+
+          {{#if resume.interests.length}}
+            <section class="content">
+              <div class="row">
+                <div class="content-cat">
+                  Interests
+                </div>
+                <div class="content-text skills-listing">
+                  {{#foreach resume.interests}}
+                    <p>
+                      <span class="name">
+                        {{#if name}}
+                          <strong>
+                            {{name}}{{#if keywords.length}}:{{/if}}
+                          </strong>
+                        {{/if}}
+                      </span>
+                      {{#if keywords.length}}
+                        {{#commalist keywords}}{{.}}{{/commalist}}
+                      {{/if}}
+                    </p>
+                  {{/foreach}}
+                </div>
+              </div>
+            </section>
+          {{/if}}
+
+        </div>
+    </article>
+  </div>
+</body>
 </html>

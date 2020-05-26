@@ -1,282 +1,224 @@
 {
   "basics": {
-    "name": "Francisco Cerdas Ureña",
-    "label": "Web Developer",
-    "picture": "https://portrait-personal.s3.amazonaws.com/profile.jpg",
-    "email": "chicus12@gmail.com",
-    "phone": "(+506) 8714-0634",
-    "website": "https://github.com/chicus12",
-    "summary": "I'm a experienced developer, operating on the entire software life cycle, from conception to a product release working with multiples programming languages. Currently, in love with NodeJS and all the Javascript World (FrontEnd with React.js & BackEnd). I like exploring other languages and approaches, so, I spend some time playing with Go, Python, Arduino and Elixir/Erlang. I like the collaborative environments, test driven development, teamwork and modern software patterns. You can check my Github profile where you can find my personal projects.",
+    "name": "Ariela Cerdas Ureña",
+    "label": "Licenciada en Enfermería",
+    "picture": "https://portrait-personal.s3.amazonaws.com/portrait-square.jpg",
+    "email": "aangeles.85@gmail.com",
+    "phone": "(+506) 8341-0913",
+    "website": "",
+    "summary": "Soy una profesional en enfermería con más de 7 años de experiencia, me defino como una persona comunicativa, proactiva  y positiva. Siempre busco compromiso absoluto con la empresa y con los pacientes. Me gusta el trabajo en equipo y aportar mis ideas para la mejora continua de mis compañeros y la empresa. Soy una persona con iniciativa y que siempre trata de mejorarse para brindar un mejor cuidado y estancia a los pacientes.",
     "profiles": [
       {
-        "network": "Twitter",
-        "username": "@chicus12",
-        "url": "https://twitter.com/chicus12"
-      },
-      {
         "network": "linkedin",
-        "username": "franciscocerdas",
-        "url": "https://www.linkedin.com/in/franciscocerdas"
-      },
-      {
-        "network": "github",
-        "username": "chicus12",
-        "url": "https://github.com/chicus12"
+        "username": "acerdas",
+        "url": "https://www.linkedin.com/in/acerdas/"
       }
     ]
   },
   "work": [
     {
-      "company": "SOIN",
-      "position": "Full Stack Developer",
-      "website": "http://www.soin.co.cr",
-      "startDate": "2011-05-15",
-      "summary": "SOIN its an IT company with national prestige, it also has offices in other countries like Spain, Mexico, El Salvador due to its excellent technological solutions.",
-      "highlights": ["test"],
-      "positions": [
-        {
-          "title": "Software Developer",
-          "startDate": "2019-12",
-          "summary": "I'm currently working as part of web development team that is building several apps for government institutions in Costa Rica, just like Dirección General de Migración y Extranjería, Servicio Fitosanitario del Estado and Crearempresa.go.cr.",
-          "highlights": [
-            "Frontend Developer",
-            "React Dedeveloper",
-            "Developers support",
-            "Code Reviewer"
-          ]
-        },
-        {
-          "title": "Software Developer - Fan-Fam App",
-          "startDate": "2019-10",
-          "endDate": "2019-12",
-          "summary": "Fan-Fam it's a app for music bands suscriptions, where the fans can buy music and merchandise of bands. Work in progress, not released yet.",
-          "highlights": [
-            "RESTs API designer",
-            "Serverless NodeJS Developer",
-            "AWS Lambda",
-            "React Dedeveloper"
-          ]
-        },
-        {
-          "title": "Software Developer / Web Engineer Lead - TSA App",
-          "startDate": "2019-01",
-          "endDate": "2019-10",
-          "summary": "TSA is the acronym of Registration of Early Summary Transmission and risk management. TSA is a web application for customs risk management base in the data model of the WCO (Worl Customs Organization).",
-          "highlights": [
-            "Project scaffold creator",
-            "RESTs API designer",
-            "Code Reviewer",
-            "Release Manager",
-            "NodeJS Developer",
-            "React Dedeveloper"
-          ]
-        },
-        {
-          "title": "Software Developer - React Form Converter",
-          "startDate": "2018-10",
-          "endDate": "2019-01",
-          "summary": "It's a simple tool to convert simple HTML form to React Forms",
-          "highlights": [
-            "Architectural design of the application",
-            "NodeJS Developer",
-            "React Dedeveloper"
-          ]
-        },
-        {
-          "title": "Software Developer / Web Engineer Lead - Tapp App",
-          "startDate": "2015-04",
-          "endDate": "2018-10",
-          "summary": "TAPP is an app where you have all your favorite frequent customer cards. You earn points for your purchases and you can redeem them for prizes or use them as redeemable money to buy products in stores. The biggest loyalty service in Costa Rica with thousands of daily users.",
-          "highlights": [
-            "Architectural design of the application",
-            "Lead the web development team",
-            "RESTs API",
-            "Restaurant POS Integration Manager",
-            "Code Reviewer",
-            "Release Manager",
-            "NodeJs Developer",
-            "BackboneJs as frontend"
-          ]
-        },
-        {
-          "title": "Software Developer / Web Engineer Lead - Digital Rx",
-          "startDate": "2014-02",
-          "endDate": "2015-04",
-          "summary": "It's a platform used by the Costa Rica Health Ministry to manage and control the prescription, marketing and dispatch of psychotropic and narcotic drugs. Digital Rx allows to integrate the information that is generated as a result of these processes, which allows to Health Ministry to carry out an adequate administration of psychotropic and narcotic drugs in our country.",
-          "highlights": [
-            "Architectural design of the application",
-            "Work directly with the product owner to establish milestones and deadlines of the developments",
-            "Lead the web development team",
-            "Coldfusion Developer",
-            "Jquery + HTML as frontend"
-          ]
-        },
-        {
-          "title": "Software Developer - Quecomemos App",
-          "startDate": "2013-01",
-          "endDate": "2014-02",
-          "summary": "Quecomemos was the first app for order food from principal food chains in Costa Rica. Used by thousands of users, was the biggest food delivery app.",
-          "highlights": [
-            "Fullstack Developer",
-            "Part of the architectural designer of the app",
-            "Coldfusion Developer",
-            "Jquery + HTML as frontend"
-          ]
-        },
-        {
-          "title": "Software Developer - ERP Software",
-          "startDate": "2011-05",
-          "endDate": "2013-01",
-          "summary": "Enterprise Resource Planning Web Application used by Televisa, Bimbo, P.M.I PEMEX and goverment institutions in Costa Rica.",
-          "highlights": [
-            "Fullstack Developer",
-            "Coldfusion Developer",
-            "Jquery + HTML as frontend"
-          ]
-        }
-      ]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "SOIN University",
-      "position": "Teacher",
-      "website": "http://www.soin.co.cr",
-      "startDate": "2017-05-20",
-      "endDate": "2017-06-24",
-      "summary": "NodeJS Professional Course.",
+      "company": "Hospital Clínica Bíblica‎",
+      "position": "Enfermera titulada",
+      "startDate": "2013-11-15",
+      "website": "https://www.clinicabiblica.com/es/",
+      "summary": "Labores de enfermería en la clínica. Algunas de mis funciones son: ",
       "highlights": [
-        "NodeJS basics",
-        "Express",
-        "MongoDB",
-        "Redis",
-        "Socket.io",
-        "Unit Test & TDD",
-        "Module Patterns",
-        "APIs REST",
-        "Async Javascript"
+        "Preparación y manejo de tratamientos",
+        "Colocación de tratamientos médicos.",
+        "Entrega de medicamentos.",
+        "Cuidados de pacientes en condición intermedia.",
+        "Manejo de campo quirúrgico, instrumentación y circulación en cirugías cesáreas.",
+        "Seguir protocolos y indicaciones médicas para el tratamiento avanzado de pacientes."
+      ]
+    },
+    {
+      "company": "Hogar de Beneficiencia Española Jose Pujol",
+      "position": "Asistente de Pacientes y Terapeuta Física",
+      "startDate": "2011-09-15",
+      "website": "http://residenciajosepujol.com/",
+      "endDate": "2012-02-15",
+      "summary": "Brindé servicios de auxiliar en enfermería en el hogar de cuido de adultos mayores. Dentro de mis funciones estaban:",
+      "highlights": [
+        "Cuidado de adultos mayores",
+        "Brindar alimentación",
+        "Administración y manejo de tramientos y medicamentos"
+      ]
+    },
+    {
+      "company": "Hotel Real Intercontinental",
+      "website": "https://www.ihg.com/intercontinental/hotels/us/es/reservation#scmisc=footer_ic",     "position": "Terapeuta física",
+      "startDate": "2008-06-15",
+      "endDate": "2008-10-30",
+      "summary": "Labores de terapia en el SPA del Hotel. Algunas de mis funciones eran: ",
+      "highlights": [
+        "Tratamientos y masajes descontracturantes",
+        "Uso de terapias alternativas como aromaterapia, hidroterapia, etc."
+      ]
+    },
+    {
+      "company": "Clínica Deportiva Sport Clinic",
+      "position": "Terapeuta física",
+      "startDate": "2007-06-15",
+      "endDate": "2007-12-30",
+      "summary": "Labores de terapia en la clínica. Algunas de mis funciones eran:",
+      "highlights": [
+        "Tratamientos y masajes descontracturantes",
+        "Uso de terapias alternativas como aromaterapia, hidroterapia, etc.",
+        "Tratamiento de lesiones deportivas",
+        "Rehabilitación de enfermedades neurológicas"
       ]
     }
   ],
   "education": [
     {
-      "institution": "University of Costa Rica",
-      "area": "Business Computing",
-      "studyType": "Bachelor Degree",
-      "startDate": "2007-01-01",
-      "endDate": "2010-12-01",
+      "institution": "Hospital Clínica Bíblica",
+      "area": "Reanimación Pulmonar avanzado pediátrico",
+      "studyType": "Curso",
+      "startDate": "2019-11-20",
+      "endDate": "2019-11-23",
+      "courses": []
+    },
+    {
+      "institution": "Hospital Clínica Bíblica",
+      "area": "Manejo de quimioterapia y acceso venoso al cateter port-a-cath",
+      "studyType": "Curso",
+      "startDate": "2019-08-20",
+      "endDate": "2019-08-22",
+      "courses": []
+    },
+    {
+       "institution": "Hospital Clínica Bíblica",
+       "area": "Charla sobre diálisis peritoneal",
+       "studyType": "Curso",
+       "startDate": "2019-06-20",
+       "endDate": "2019-06-20",
+       "courses": []
+     },
+    {
+      "institution": "Universidad San Paula",
+      "area": "Curso de Electroterapia Avanzada",
+      "studyType": "Curso",
+      "startDate": "2013-06-01",
+      "endDate": "2013-06-03",
       "gpa": "4.0",
       "courses": []
     },
     {
-      "institution": "Scrum Alliance",
-      "area": "Scrum",
-      "studyType": "Scrum Master",
-      "startDate": "2014-06-01",
-      "endDate": "2014-06-30",
+      "institution": "Universidad San Paula",
+      "area": "Curso de Reanimación CardioPulmonar",
+      "studyType": "Curso",
+      "startDate": "2013-02-01",
+      "endDate": "2013-02-02",
       "gpa": "4.0",
-      "courses": ["Scrum Master - License 000339588"]
+      "courses": []
     },
     {
-      "institution": "Veritas University",
-      "area": "Introduction to Arduino",
-      "studyType": "Course",
-      "startDate": "2017-06-01",
-      "endDate": "2017-06-30",
-      "courses": ["Arduino 101"]
+      "institution": "Universidad Autónoma de Centroamérica",
+      "area": "Licenciatura en Enfermería",
+      "studyType": "Título",
+      "startDate": "2012-08-25",
+      "endDate": "2013-08-31",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Autónoma de Centroamérica",
+      "area": "Bachillerato en Enfermería",
+      "studyType": "Título",
+      "endDate": "2012-08-25",
+      "startDate": "2009-08-01",
+      "courses": []
+    },
+    {
+      "institution": "Universidad Santa Paula",
+      "area": "Seminario de Rehabilitación Cardiaca",
+      "studyType": "Curso",
+      "startDate": "2009-02-01",
+      "endDate": "2009-02-05",
+      "courses": []
+    },
+     {
+       "institution": "Universidad Santa Paula",
+       "area": "IV Congreso Internacional de Terapia Física y Rehabilitación basada en la evidencia 'La Innovación Fisioterapeutica'",
+       "studyType": "Curso",
+       "startDate": "2007-10-01",
+       "endDate": "2007-10-04",
+       "courses": []
+     },
+     {
+       "institution": "Universidad San Paula",
+       "area": "Licenciatura en Terapia Física",
+       "studyType": "Título",
+       "startDate": "2007-09-30",
+       "endDate": "2008-09-30",
+       "courses": []
+     },
+     {
+       "institution": "Universidad Santa Paula",
+       "area": "Curso manejo y desarrollo de las habilidades prácticas en electroterapia",
+       "studyType": "Curso",
+       "startDate": "2007-03-01",
+       "endDate": "2007-03-0",
+       "courses": []
+     },
+    {
+      "institution": "Colegio Universitario de Cartago",
+      "area": "Curso de ténicas de Meso terapia",
+      "studyType": "Curso",
+      "startDate": "2007-01-01",
+      "endDate": "2007-02-15",
+      "courses": []
+    },
+    {
+      "institution": "Universidad San Paula",
+      "area": "Bachillerato en Terapia Física",
+      "studyType": "Título",
+      "startDate": "2003-01-01",
+      "endDate": "2006-12-08",
+      "courses": []
     }
+
+
+
   ],
-  "awards": [
-    {
-      "title": "Most inovative Product of 2016",
-      "date": "2016-01-01",
-      "awarder": "Chamber of Commerce",
-      "summary": "Tapp"
-    }
-  ],
-  "skills": [
-    {
-      "name": "Web Development",
-      "level": "High",
-      "keywords": [
-        "HTML5",
-        "Javascript",
-        "NodeJS",
-        "React",
-        "Angular",
-        "Webpack",
-        "Babel",
-        "Serverless",
-        "Lambda"
-      ]
-    },
-    {
-      "name": "Data Bases",
-      "level": "High",
-      "keywords": [
-        "MySQL",
-        "PostgreSQL",
-        "Oracle",
-        "MongoDB",
-        "RethinkDB",
-        "Redis"
-      ]
-    },
-    {
-      "name": "Development Methodologies",
-      "level": "High",
-      "keywords": [
-        "Passion Driven Development",
-        "Test Driven Development",
-        "Scrum Master"
-      ]
-    },
-    {
-      "name": "DevOps",
-      "level": "Medium",
-      "keywords": [
-        "NGINX",
-        "Docker",
-        "Container",
-        "AWS Amazon Web Services",
-        "Digital Ocean",
-        "Vagrant",
-        "Ansible",
-        "UNIX terminal"
-      ]
-    }
-  ],
+
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Español",
+      "fluency": "Idioma nativo"
     },
     {
-      "language": "English",
-      "fluency": "Elementary proficiency"
+      "language": "Inglés",
+      "fluency": "Medio"
     }
   ],
-  "interests": [
+
+  "awards": [
     {
-      "name": "Arts and Culture",
-      "keywords": ["Photography", "Literature"]
+      "title": "",
+      "date": "",
+      "awarder": "Keylin Porras Calvo",
+      "summary": "Cédula: 1 1192 0595 Teléfono: 8718 3886"
     },
     {
-      "name": "Education",
-      "keywords": ["Teaching", "Teamwork"]
-    }
-  ],
-  "references": [
-    {
-      "name": "Heriberto Ureña (burenam17@gmail.com) - coworkers at SOIN",
-      "reference": "It's my pleasure to recommend Francisco, we work together at SOIN and he proved that he will be a valuable professional to any company as web developer."
+      "title": "",
+      "date": "",
+      "awarder": "Edwin Fernando Mora Valverde",
+      "summary": "Cédula: 1 0585 0616 Teléfono: 8316 1257"
     },
     {
-      "name": "Tomás González Castetbon - coworkers at SOIN",
-      "reference": "I have worked with Francisco in several projects in the same company and I can say his seniority is highly-felt; one of the most committed & responsible person/teammate I have had the pleasure to work with. When it comes down to reviews/plannings, Francisco's input and ideas always tend to shine and are highly taken in consideration for the projects on focus."
+      "title": "",
+      "date": "",
+      "awarder": "Xiomara Rivera Valverde",
+      "summary": "Cédula: 1 0737 0949 Teléfono: 8837 0854"
     }
   ],
+
+  "references": [{
+    "name": "Erlich Bachman",
+    "reference": "It is my pleasure to recommend Richard, his performance working as a consultant for Main St. Company proved that he will be a valuable addition to any company."
+  }],
+
   "meta": {
-    "theme": "kendall"
+    "theme": "paper"
   }
 }

@@ -8,10 +8,11 @@
   "scripts": {
     "export:pdf": "resume export resume.pdf",
     "export:html": "resume export resume.html",
+    "render": "node render",
     "serve": "resume serve --theme kendall"
   },
   "devDependencies": {
-    "resume-cli": "^1.2.7"
+    "resume-cli": "^3.0.0"
   },
   "dependencies": {
     "gravatar": "^1.8.0",

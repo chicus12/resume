@@ -6,13 +6,8 @@
     "email": "chicus12@gmail.com",
     "phone": "(+506) 8714-0634",
     "website": "https://github.com/chicus12",
-    "summary": "I'm a experienced developer, operating on the entire software life cycle, from conception to a product release working with multiples programming languages. Currently, in love with NodeJS and all the Javascript World (FrontEnd with React.js & BackEnd). I like exploring other languages and approaches, so, I spend some time playing with Go, Python, Arduino and Elixir/Erlang. I like the collaborative environments, test driven development, teamwork and modern software patterns. You can check my Github profile where you can find my personal projects.",
+    "summary": "As an experienced developer, I navigate the entire software life cycle with proficiency, seamlessly guiding projects from conception to product release while adeptly working with a variety of programming languages.<br>Presently, I specialize in crafting dynamic and efficient solutions using TypeScript, NodeJS, and React, as well as frameworks like Next and Remix for enhanced efficiency and functionality.<br>With a keen eye for detail and a commitment to staying at the forefront of web development technologies, I thrive in creating seamless and engaging user experiences. My dedication to clean code, problem-solving, and continuous learning fuels my enthusiasm for building innovative and scalable web applications.<br>My commitment to continuous learning is evident in my exploration of diverse languages such as Go and Python, always seeking new approaches to elevate my skill set. Embracing collaborative environments, I am an advocate for passion-driven development, emphasizing the importance of teamwork and the application of modern software patterns.",
     "profiles": [
-      {
-        "network": "Twitter",
-        "username": "@chicus12",
-        "url": "https://twitter.com/chicus12"
-      },
       {
         "network": "linkedin",
         "username": "franciscocerdas",
@@ -31,44 +26,54 @@
       "position": "Full Stack Developer",
       "website": "http://www.soin.co.cr",
       "startDate": "2011-05-15",
-      "summary": "SOIN its an IT company with national prestige, it also has offices in other countries like Spain, Mexico, El Salvador due to its excellent technological solutions.",
+      "endDate": "2023-08",
+      "summary": "SOIN its an IT company with national prestige.",
       "highlights": ["test"],
       "positions": [
         {
           "title": "Software Developer",
           "startDate": "2019-12",
-          "summary": "I'm currently working as part of web development team that is building several apps for government institutions in Costa Rica, just like Dirección General de Migración y Extranjería, Servicio Fitosanitario del Estado and Crearempresa.go.cr.",
+          "endDate": "2023-08",
+          "summary": "As an integral member of a dynamic web development team, I contributed to the creation of multiple applications for esteemed government institutions in Costa Rica. Notable projects include those for Dirección General de Migración y Extranjería, Servicio Fitosanitario del Estado, and pivotal platforms such as tramiteya.go.cr/crearempresa for the seamless registration and activation of businesses, as well as registrelo.go.cr, a comprehensive System for the Registration of Foods and Raw Materials.",
           "highlights": [
+            "Software Developer Specialist",
+            "Fullstack Developer",
+            "Backend Developer",
             "Frontend Developer",
             "React Dedeveloper",
-            "Developers support",
-            "Code Reviewer"
+            "NodeJS Dedeveloper",
+            "Technical Support Engineer",
+            "Developer Success Engineer",
+            "Code Review Specialist"
           ]
         },
         {
           "title": "Software Developer - Fan-Fam App",
           "startDate": "2019-10",
           "endDate": "2019-12",
-          "summary": "Fan-Fam it's a app for music bands suscriptions, where the fans can buy music and merchandise of bands. Work in progress, not released yet.",
+          "summary": "I was actively involved in the development of Fan-Fam, an subscription-based app designed for music bands. This innovative platform allowed fans to conveniently purchase music and merchandise directly from their favorite bands. Currently it is no longer available, Fan-Fam was poised to revolutionize the fan experience, providing a seamless and engaging platform for music enthusiasts and artists alike.",
           "highlights": [
-            "RESTs API designer",
+            "RESTs API Architect",
             "Serverless NodeJS Developer",
             "AWS Lambda",
-            "React Dedeveloper"
+            "React Developer"
           ]
         },
         {
           "title": "Software Developer / Web Engineer Lead - TSA App",
           "startDate": "2019-01",
           "endDate": "2019-10",
-          "summary": "TSA is the acronym of Registration of Early Summary Transmission and risk management. TSA is a web application for customs risk management base in the data model of the WCO (Worl Customs Organization).",
+          "summary": "I played a key role in the development of TSA, an acronym for 'Registration of Early Summary Transmission and Risk Management.' TSA is a sophisticated web application designed for customs risk management, grounded in the data model established by the World Customs Organization (WCO). My contributions to the project encompassed ensuring the seamless integration of functionalities and adherence to the WCO data model, thereby enhancing the effectiveness of customs risk management procedures.",
           "highlights": [
-            "Project scaffold creator",
-            "RESTs API designer",
-            "Code Reviewer",
+            "Project scaffold Architect",
+            "RESTs API Architect",
+            "Code Review Specialist",
             "Release Manager",
+            "Fullstack Developer",
             "NodeJS Developer",
-            "React Dedeveloper"
+            "React Developer",
+            "Technical Support Engineer",
+            "Developer Success Engineer"
           ]
         },
         {
@@ -77,61 +82,61 @@
           "endDate": "2019-01",
           "summary": "It's a simple tool to convert simple HTML form to React Forms",
           "highlights": [
-            "Architectural design of the application",
+            "Software Architect",
             "NodeJS Developer",
-            "React Dedeveloper"
+            "React Developer",
+            "Proficiency teaching sessions for developers about the tool"
           ]
         },
         {
           "title": "Software Developer / Web Engineer Lead - Tapp App",
           "startDate": "2015-04",
           "endDate": "2018-10",
-          "summary": "TAPP is an app where you have all your favorite frequent customer cards. You earn points for your purchases and you can redeem them for prizes or use them as redeemable money to buy products in stores. The biggest loyalty service in Costa Rica with thousands of daily users.",
+          "summary": "As a web developer for TAPP, I played a crucial role in the creation of an innovative app that transformed the landscape of customer loyalty programs. TAPP served as a comprehensive platform, allowing users to digitally store their preferred frequent customer cards. Users could accrue points for their purchases, with the flexibility to redeem them for prizes or utilize them as redeemable currency for in-store products. TAPP swiftly emerged as the leading loyalty service in Costa Rica, boasting a substantial user base of thousands on a daily basis. My contributions to TAPP encompassed the development of key features, contributing to its success in enhancing customer engagement and loyalty within the region.",
           "highlights": [
-            "Architectural design of the application",
-            "Lead the web development team",
-            "RESTs API",
-            "Restaurant POS Integration Manager",
-            "Code Reviewer",
+            "RESTs API Architect",
+            "Web Development Team Leader",
+            "POS Integration and Implementation Manager",
+            "Code Review Specialist",
             "Release Manager",
             "NodeJs Developer",
-            "BackboneJs as frontend"
+            "Frontend Developer - BackboneJS"
           ]
         },
         {
           "title": "Software Developer / Web Engineer Lead - Digital Rx",
           "startDate": "2014-02",
           "endDate": "2015-04",
-          "summary": "It's a platform used by the Costa Rica Health Ministry to manage and control the prescription, marketing and dispatch of psychotropic and narcotic drugs. Digital Rx allows to integrate the information that is generated as a result of these processes, which allows to Health Ministry to carry out an adequate administration of psychotropic and narcotic drugs in our country.",
+          "summary": "As a developer, I contributed to the creation of a pivotal platform utilized by the Costa Rica Health Ministry. This platform, known as Digital Rx (Receta Digital), plays a crucial role in managing and overseeing the prescription, marketing, and distribution processes of psychotropic and narcotic drugs. Digital Rx excels in seamlessly integrating information generated throughout these processes, empowering the Health Ministry to conduct precise and effective administration of psychotropic and narcotic drugs in our country. My role in the development of Digital Rx involved implementing robust features to enhance the functionality and efficiency of this critical healthcare management tool from the begining.",
           "highlights": [
-            "Architectural design of the application",
-            "Work directly with the product owner to establish milestones and deadlines of the developments",
-            "Lead the web development team",
-            "Coldfusion Developer",
-            "Jquery + HTML as frontend"
+            "Software Engineering Architect",
+            "Collaborated closely with the product owner to define and set clear milestones and deadlines for development initiatives. Ensured alignment with strategic goals, fostering effective communication and facilitating a streamlined workflow to achieve project objectives within specified timelines.",
+            "Web Development Team Leader",
+            "Backend Developer - Coldfusion",
+            "FrontEnd Developer - Jquery + HTML"
           ]
         },
         {
           "title": "Software Developer - Quecomemos App",
           "startDate": "2013-01",
           "endDate": "2014-02",
-          "summary": "Quecomemos was the first app for order food from principal food chains in Costa Rica. Used by thousands of users, was the biggest food delivery app.",
+          "summary": "As a web developer at Quecomemos, I played a pivotal role in creating the first app for ordering food from leading food chains in Costa Rica. This platform, utilized by thousands of users, emerged as the largest and most prominent food delivery app in the region. My contributions to Quecomemos included designing and implementing features that enhanced the user experience, contributing to the app's widespread adoption and success.",
           "highlights": [
             "Fullstack Developer",
-            "Part of the architectural designer of the app",
-            "Coldfusion Developer",
-            "Jquery + HTML as frontend"
+            "RESTs API Architect",
+            "Backend Developer - ColdFusion",
+            "FrontEnd Developer - Jquery + HTML"
           ]
         },
         {
           "title": "Software Developer - ERP Software",
           "startDate": "2011-05",
           "endDate": "2013-01",
-          "summary": "Enterprise Resource Planning Web Application used by Televisa, Bimbo, P.M.I PEMEX and goverment institutions in Costa Rica.",
+          "summary": "As a key member of the web development team, I contributed to the creation of an Enterprise Resource Planning (ERP) Web Application utilized by prominent entities such as Televisa, Bimbo, P.M.I PEMEX, and government institutions in Costa Rica. My role involved collaborating with cross-functional teams to design and implement features that met the specific needs of these diverse organizations, ensuring the seamless integration and effective utilization of the ERP system across various sectors and industries.",
           "highlights": [
             "Fullstack Developer",
-            "Coldfusion Developer",
-            "Jquery + HTML as frontend"
+            "Backend Developer - Coldfusion",
+            "Frontend Developer - Jquery + HTML"
           ]
         }
       ]
@@ -200,27 +205,23 @@
       "level": "High",
       "keywords": [
         "HTML5",
+        "A11y",
         "Javascript",
+        "Typescript",
         "NodeJS",
         "React",
-        "Angular",
-        "Webpack",
-        "Babel",
-        "Serverless",
-        "Lambda"
+        "Next",
+        "Remix",
+        "Vite",
+        "Vitest",
+        "Tailwind CSS",
+        "Playwright"
       ]
     },
     {
       "name": "Data Bases",
       "level": "High",
-      "keywords": [
-        "MySQL",
-        "PostgreSQL",
-        "Oracle",
-        "MongoDB",
-        "RethinkDB",
-        "Redis"
-      ]
+      "keywords": ["MySQL", "PostgreSQL", "Oracle", "MongoDB", "Redis"]
     },
     {
       "name": "Development Methodologies",
@@ -240,8 +241,6 @@
         "Container",
         "AWS Amazon Web Services",
         "Digital Ocean",
-        "Vagrant",
-        "Ansible",
         "UNIX terminal"
       ]
     }
@@ -253,7 +252,7 @@
     },
     {
       "language": "English",
-      "fluency": "Elementary proficiency"
+      "fluency": "Professional Working Proficiency - B2 Belt Certified"
     }
   ],
   "interests": [

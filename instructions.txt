@@ -1,0 +1,10 @@
+Para sacar el pdf original a color:
+1- Ir a la pagina https://webtopdf.com/
+2- Poner custom width y height
+3- Quitar los margenes
+
+Para un preview del html:
+https://htmlpreview.github.io/?https://github.com/chicus12/resume/blob/master/resume.html
+
+Ruta del html en githhub:
+https://github.com/chicus12/resume/blob/master/resume.html
